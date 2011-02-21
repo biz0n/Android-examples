@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button
+  android:id="@+id/show_dialog"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:text="Show a dialog"
+  />
+<Button
+  android:id="@+id/show_transparent"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:text="Show transparent activity"
+  />
+<Button
+  android:id="@+id/show_activity"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:text="Show other activity"
+  />
+<Button
+  android:id="@+id/show_result"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:text="Show activity for result"
+  />
+<Button
+  android:id="@+id/restart"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:text="Restart this activity"
+  />
+<Button
+  android:id="@+id/finish"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:gravity="center"
+  android:text="Finish this activity"
+  />
+  
+</LinearLayout>
