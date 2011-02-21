@@ -1,0 +1,9 @@
+This is a tweaked version of the OrmLite example project ClickCounter
+from http://ormlite.com/android/examples/
+
+I added SimpleQueryAdapter and tweaked the example to use it as a
+proof of concept for how an OrmLite query could be used like a Cursor
+would be used with regular Android cursor adapters. It works fine,
+but is a bit rough around the edges...
+
+-Luke
